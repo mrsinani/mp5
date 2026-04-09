@@ -16,9 +16,9 @@ export default function Shortener({
   const [message, setMessage] = useState<string | null>(null);
 
   return (
-    <div className="mt-8 flex w-full items-center justify-center">
+    <div className="mt-8 flex w-full items-center justify-center px-4">
       <form
-        className="w-1/2 rounded-xl bg-gray-100 p-4"
+        className="w-full max-w-3xl rounded-xl bg-gray-100 p-4"
         onSubmit={(e) => {
           e.preventDefault();
           createShortUrl(url, alias)
