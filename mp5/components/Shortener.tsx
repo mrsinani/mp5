@@ -47,7 +47,7 @@ export default function Shortener({
         />
         <div className="flex w-full">
           <span className="mt-6 mr-2 h-full flex-1 text-xl whitespace-nowrap">
-            https://url-shortener.vercel.app/
+          https://mp5-iota.vercel.app/
           </span>
           <Textarea
             name="alias"
